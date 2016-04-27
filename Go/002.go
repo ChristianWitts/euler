@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	f := fib()
-	var sum int = 0
+	var sum int
 	for {
 		a := f()
 		if a%2 == 0 {
